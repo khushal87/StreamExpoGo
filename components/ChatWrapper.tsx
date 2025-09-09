@@ -7,7 +7,7 @@ import {
   useCreateChatClient,
 } from "stream-chat-expo";
 import { STREAM_API_KEY, user, userToken } from "../constants";
-import { useStreamChatTheme } from "../useStreamChatTheme";
+import { useStreamChatTheme } from "../hooks/useStreamChatTheme";
 import { AuthProgressLoader } from "./AuthProgressLoader";
 
 const streami18n = new Streami18n({
